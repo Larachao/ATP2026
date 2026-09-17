@@ -3,17 +3,16 @@
 ## Autor
 - **Nome**: Lara Ribeiro Da Chão
 - **ID**: a115544
-- **Fotografia**: 
+- **Fotografia**: <img width="868" height="868" alt="image" src="https://github.com/user-attachments/assets/c1f89c14-a0f2-4127-bbf5-8702fa671d2d" />
+
 
 ## Resumo 
 
-Para a realização do TPC1 foram propostas duas atividades utilizando a plataforma Blockly Games.
-
+Para a realização do TPC1 foram propostas duas atividades utilizando a plataforma Blockly Games, com o objetivo de aplicar conceitos básicos de programação através da utilização de programação por blocos.
 Na primeira atividade foi solicitado o desenvolvimento de uma solução para o nível 10 do jogo Labirinto.
-
 Na segunda atividade foi reproduzido, através do jogo Tartaruga, o desenho disponibilizado pelo docente, o qual se encontra logo abaixo.
+<img width="1926" height="1481" alt="image" src="https://github.com/user-attachments/assets/c7cd657c-d108-4a40-b164-c441ed2898d7" />
 
-Ambas as atividades tiveram como objetivo a aplicação de conceitos básicos de programação através da utilização de programação por blocos.
 
 ## Lista dos resultados
 <img width="878" height="362" alt="image" src="https://github.com/user-attachments/assets/7073c9b6-55ad-404e-bfe1-fd28ddea9d41" />
