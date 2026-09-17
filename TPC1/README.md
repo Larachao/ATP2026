@@ -9,9 +9,9 @@
 
 Para a realização do TPC1 foram propostas duas atividades utilizando a plataforma Blockly Games.
 
-Na primeira atividade foi solicitado o desenvolvimento de uma solução para o nível 10 do jogo Labirinto. Após a conclusão do desafio, foi capturada uma imagem do resultado obtido.
+Na primeira atividade foi solicitado o desenvolvimento de uma solução para o nível 10 do jogo Labirinto.
 
-Na segunda atividade foi reproduzido, através do jogo Tartaruga, o desenho disponibilizado pelo docente. Para a sua concretização foram utilizados blocos de programação que permitiram definir os movimentos e trajetórias necessários à construção da figura pretendida.
+Na segunda atividade foi reproduzido, através do jogo Tartaruga, o desenho disponibilizado pelo docente, o qual se encontra logo abaixo.
 
 Ambas as atividades tiveram como objetivo a aplicação de conceitos básicos de programação através da utilização de programação por blocos.
 
