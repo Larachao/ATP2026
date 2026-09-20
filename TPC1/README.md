@@ -21,9 +21,9 @@ Na segunda atividade foi reproduzido, através do jogo Tartaruga, o desenho disp
 ## Lista dos resultados
 Os resultados obtidos no Blockly Games seguem em anexo logo a seguir.
 
-*Labirinto*
+**Labirinto**
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/7073c9b6-55ad-404e-bfe1-fd28ddea9d41" />
 
 
-*Tartaruga*
+**Tartaruga**
