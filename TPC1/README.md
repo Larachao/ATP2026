@@ -15,8 +15,8 @@ Na primeira atividade foi solicitado o desenvolvimento de uma solução para o n
 
 Na segunda atividade foi reproduzido, através do jogo Tartaruga, o desenho disponibilizado pelo docente, o qual se encontra logo abaixo.
 
-<img width="1926" height="1481" alt="image" src="https://github.com/user-attachments/assets/c7cd657c-d108-4a40-b164-c441ed2898d7" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/c7cd657c-d108-4a40-b164-c441ed2898d7" />
 
 
 ## Lista dos resultados
-<img width="878" height="362" alt="image" src="https://github.com/user-attachments/assets/7073c9b6-55ad-404e-bfe1-fd28ddea9d41" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/7073c9b6-55ad-404e-bfe1-fd28ddea9d41" />
