@@ -1,10 +1,11 @@
 # TPC 1
 
 ## Autor
-- **Nome**: Lara Ribeiro Da Chão
-- **ID**: a115544
-- **Fotografia**: <img width="868" height="868" alt="image" src="https://github.com/user-attachments/assets/c1f89c14-a0f2-4127-bbf5-8702fa671d2d" />
-
+<img width="125" height="125" alt="image" align="right" src="https://github.com/user-attachments/assets/c1f89c14-a0f2-4127-bbf5-8702fa671d2d" />
+ 
+  - **Nome**: Lara Ribeiro Da Chão
+  - **ID**: a115544
+  - **Fotografia**:
 
 ## Resumo 
 
