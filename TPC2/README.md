@@ -15,3 +15,10 @@
     - Uma vez descoberto o número o programa deverá terminar imprimindo o número de tentativas que quem adivinhou usou para chegar ao resultado.
 
 ## Lista dos resultados
+escolha = input("Escreva 1 se queres adivinhar o número secreto ou 2 se queres que eu adivinhe: ")
+
+if escolha == "1":
+    
+    n = int(input("Então qual vai ser a tua primeira tentativa para o número secreto? "))
+
+else:
