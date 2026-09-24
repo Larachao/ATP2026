@@ -18,5 +18,7 @@ Em ambas as modalidades, quando o número é descoberto o programa imprime o nú
 
 
 ## Lista dos resultados
-Os resultados encontram-se no ficheiro que se segue:
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias:
 [a115544_tpc2.html](https://github.com/user-attachments/files/32628910/a115544_tpc2.html)
+<img width="450" height="250" alt="Captura de ecrã 2026-09-24 215955" src="https://github.com/user-attachments/assets/60ad3d3c-fe6f-458a-99f2-6550ac5a422b" />
+<img width="450" height="250" alt="Captura de ecrã 2026-09-24 215948" src="https://github.com/user-attachments/assets/7c012eef-5d38-4666-afc3-d89d3210baf4" />
