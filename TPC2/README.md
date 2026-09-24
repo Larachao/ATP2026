@@ -8,17 +8,15 @@
   - **Fotografia**:
 
 ## Resumo 
-### TPC2: Adivinha o número
-- Crie um programa em Python para jogar o jogo "Adivinha o número":
-    - O jogo pode ter 2 modalidades: computador pensa num número (entre 0 e 100), utilizador tenta adivinhar; ou, o utilizador pensa num número (entre 0 e 100) e o computador tenta adivinhar;
-    - Quem tenta adivinhar responde com uma das afirmações: "Acertou", "O número que pensei é Maior" ou "O número que pensei é Menor";
-    - Uma vez descoberto o número o programa deverá terminar imprimindo o número de tentativas que quem adivinhou usou para chegar ao resultado.
+O TPC2 consistia em criar um jogo em python denominado de "Adivinha o número" que possuía 2 modalidades
+    1. a primeira onde o computador pensa num número (entre 0 e 100) e o utilizador tenta adivinhar dando números diferentes segunda as dicas;
+    2. ou outra onde o utilizador pensa num número (entre 0 e 100) e o computador tenta adivinhar usando as informações fornecidas pelo utilizador ("Acertas-te", "maior" ou "menor").
+
+Em ambas as modalidades, quando o número é descoberto o programa imprime o número de tentativas que se utilizou para descobrir o número seceto.
+
+Quem tenta adivinhar responde com uma das afirmações: "Acertou", "O número que pensei é Maior" ou "O número que pensei é Menor";
+
 
 ## Lista dos resultados
-escolha = input("Escreva 1 se queres adivinhar o número secreto ou 2 se queres que eu adivinhe: ")
-
-if escolha == "1":
-    
-    n = int(input("Então qual vai ser a tua primeira tentativa para o número secreto? "))
-
-else:
+Os resultados constam no ficheiro que se segue:
+[a115544_tpc2.html](https://github.com/user-attachments/files/32628910/a115544_tpc2.html)
