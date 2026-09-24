@@ -10,15 +10,13 @@
 ## Resumo 
 O TPC2 consistia em criar um jogo em python denominado de "Adivinha o número" que possuía 2 modalidades:
 
-   1. a primeira onde o computador pensa num número (entre 0 e 100) e o utilizador tenta adivinhar dando números diferentes segunda as dicas;
+   1. Na primeira modalidade, o computador pensa num número entre 0 e 100 e o utilizador tenta adivinhá-lo, introduzindo diferentes números de acordo com as dicas fornecidas pelo computador.
     
-   2. ou outra onde o utilizador pensa num número (entre 0 e 100) e o computador tenta adivinhar usando as informações fornecidas pelo utilizador ("Acertas-te", "maior" ou "menor").
+   2. Na segunda modalidade, o utilizador pensa num número entre 0 e 100 e o computador tenta adivinhá-lo, utilizando as informações fornecidas pelo utilizador: “Acertas-te”, “maior” ou “menor”.
 
 Em ambas as modalidades, quando o número é descoberto o programa imprime o número de tentativas que se utilizou para descobrir o número seceto.
 
-Quem tenta adivinhar responde com uma das afirmações: "Acertou", "O número que pensei é Maior" ou "O número que pensei é Menor";
-
 
 ## Lista dos resultados
-Os resultados constam no ficheiro que se segue:
+Os resultados encontram-se no ficheiro que se segue:
 [a115544_tpc2.html](https://github.com/user-attachments/files/32628910/a115544_tpc2.html)
