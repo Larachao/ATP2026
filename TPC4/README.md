@@ -1,4 +1,4 @@
-[tpc4.py](https://github.com/user-attachments/files/33174150/tpc4.py)# TPC4
+# TPC4
 
 ## Autor
 <img width="125" height="125" alt="image" align="right" src="https://github.com/user-attachments/assets/c1f89c14-a0f2-4127-bbf5-8702fa671d2d" />
@@ -39,5 +39,5 @@
     - Se o utilizador selecionar a opção 0, a aplicação deverá terminar mostrando a lista que está nesse momento guardada.
 
 ## Lista dos resultados
-Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: 
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc4.py](https://github.com/user-attachments/files/33174150/tpc4.py)
 
