@@ -18,4 +18,5 @@ Implementa o jogo com 2 vertentes: o computador joga primeiro (deverá ganhar se
 
 ## Lista dos resultados
 Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [Untitled-1.py](https://github.com/user-attachments/files/32871144/Untitled-1.py)
+
 <img width="500" height="300" alt="Captura de ecrã 2026-09-30 193147" src="https://github.com/user-attachments/assets/22c9b8a0-b344-4551-99a6-6641398afd7d" /><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/094b7e89-fd9f-4c8c-ac2a-b6e1e52edaa9" />
