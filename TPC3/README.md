@@ -8,7 +8,7 @@
   - **Fotografia**:
 
 ## Resumo 
-Corrida para o 100
+O TPC3 consistia em jogar ao jogo dos 100.
 
 O total começa em 0. O jogador e o computador alternam somando um número de 1 a 10 ao total. Quem atingir exatamente o número 100 vence.
 - Se o computador jogar primeiro deverá vencer;
