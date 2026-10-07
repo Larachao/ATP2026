@@ -8,38 +8,33 @@
   - **Fotografia**:
 
 ## Resumo 
-- Crie uma aplicação em Python que coloca no monitor o seguinte menu:
-    * (1) Criar Lista 
-    * (2) Ler Lista
-    * (3) Soma
-    * (4) Média
-    * (5) Maior
-    * (6) Menor
-    * (7) estaOrdenada por ordem crescente
-    * (8) estaOrdenada por ordem decrescente
-    * (9) Procura um elemento
-    * (0) Sair
-- O utilizador irá escolher uma das opções introduzindo o número correspondente;
-- Se a opção não for sair, a aplicação executa a operação pretendida, apresenta o resultado e a seguir apresenta de novo o menu;
-- Se a opção for sair, a aplicação termina colocando uma mensagem no monitor.
+O objetivo do TPC4 é criar um programa em Python com um menu interativo (0 a 9) para gerir e analisar uma lista de números.
 
-* No desenvolvimento da aplicação deverá ter em atenção o seguinte:
-    - A aplicação terá uma variável interna para guardar uma lista de números;
-    - Na opção 1, deverá ser criada uma lista de números aleatórios entre 1 e 100 que será guardada na variável interna;
-    - Na opção 2, deverá ser criada uma lista com números introduzidos pelo utilizador, que será guardada na variável interna;
-    - Nestas primeiras opções, se a variável interna já tiver uma lista, esta será sobreposta/apagada pela nova lista;
-    - Na opção 3, será calculada a soma dos elementos na lista no momento;
-    - Na opção 4, será calculada a média dos elementos na lista no momento;
-    - Na opção 5, será calculado o maior elemento da lista no momento;
-    - Na opção 6, será calculado o menor elemento da lista no momento;
-    - Na opção 7, a aplicação deverá indicar (Sim/Não) se a lista está ordenada por ordem crescente;
-    - Na opção 8, a aplicação deverá indicar (Sim/Não) se a lista está ordenada por ordem decrescente;
-    - Na opção 9, a aplicação irá procurar um elemento na lista, se o encontrar deverá devolver a sua posição, devolverá -1 se o elemento não estiver na lista;
-    - Se o utilizador selecionar a opção 0, a aplicação deverá terminar mostrando a lista que está nesse momento guardada.
+####Funcionalidades do Menu:
+   (1) Criar Lista: Gera uma nova lista com números aleatórios (entre 1 e 100) e apaga a lista anterior.
+
+   (2) Ler Lista: Pede ao utilizador para introduzir números manuais e apaga a lista anterior.
+
+   (3) Soma: Calcula o total somado de todos os elementos da lista.
+
+   (4) Média: Calcula a média dos valores presentes na lista.
+
+   (5) Maior: Identifica o maior número guardado na lista.
+
+   (6) Menor: Identifica o menor número guardado na lista.
+
+   (7) estaOrdenada (Crescente): Responde Sim/Não se os números estiverem do menor para o maior.
+
+   (8) estaOrdenada (Decrescente): Responde Sim/Não se os números estiverem do maior para o menor.
+
+   (9) Procura um elemento: Pede um número e devolve a sua posição (a primeira posição é 0). Se não existir, devolve -1.
+
+   (0) Sair: Termina o programa e mostra a lista final no ecrã.
 
 
 ## Lista dos resultados
 Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc4.py](https://github.com/user-attachments/files/33174150/tpc4.py)
+
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203345" src="https://github.com/user-attachments/assets/623f609b-ab8f-42ce-a362-c2c27c85b235" />
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203402" src="https://github.com/user-attachments/assets/7dba81af-38f6-40c2-a9a1-885a9e071509" />
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203422" src="https://github.com/user-attachments/assets/a9292895-dde9-4300-ba7e-3de8c0e69029"/>
