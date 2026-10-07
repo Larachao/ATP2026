@@ -39,5 +39,5 @@
     - Se o utilizador selecionar a opção 0, a aplicação deverá terminar mostrando a lista que está nesse momento guardada.
 
 ## Lista dos resultados
-Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: uploading tpc4.py…]
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: 
 
