@@ -8,7 +8,6 @@
   - **Fotografia**:
 
 ## Resumo 
-(dia 5 de Outubro não há aula teórica): Aplicação para manipulação de listas de inteiros
 - Crie uma aplicação em Python que coloca no monitor o seguinte menu:
     * (1) Criar Lista 
     * (2) Ler Lista
@@ -38,6 +37,10 @@
     - Na opção 9, a aplicação irá procurar um elemento na lista, se o encontrar deverá devolver a sua posição, devolverá -1 se o elemento não estiver na lista;
     - Se o utilizador selecionar a opção 0, a aplicação deverá terminar mostrando a lista que está nesse momento guardada.
 
+
 ## Lista dos resultados
 Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc4.py](https://github.com/user-attachments/files/33174150/tpc4.py)
+<img width="978" height="551" alt="Captura de ecrã 2026-10-07 203402" src="https://github.com/user-attachments/assets/7dba81af-38f6-40c2-a9a1-885a9e071509" />
+<img width="980" height="566" alt="Captura de ecrã 2026-10-07 203422" src="https://github.com/user-attachments/assets/a9292895-dde9-4300-ba7e-3de8c0e69029" /><img width="1003" height="513" alt="Captura de ecrã 2026-10-07 203345" src="https://github.com/user-attachments/assets/623f609b-ab8f-42ce-a362-c2c27c85b235" />
+<img width="1033" height="336" alt="Captura de ecrã 2026-10-07 203429" src="https://github.com/user-attachments/assets/3baa5193-8023-47b0-a126-0e5a01e371ef" />
 
