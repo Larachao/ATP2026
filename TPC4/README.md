@@ -15,21 +15,21 @@ O objetivo do TPC4 é criar um programa em Python com um menu interativo (0 a 9)
 
     (2) Ler Lista: Pede ao utilizador para introduzir números manuais e apaga a lista anterior.
 
-   (3) Soma: Calcula o total somado de todos os elementos da lista.
+    (3) Soma: Calcula o total somado de todos os elementos da lista.
 
-   (4) Média: Calcula a média dos valores presentes na lista.
+    (4) Média: Calcula a média dos valores presentes na lista.
 
-   (5) Maior: Identifica o maior número guardado na lista.
+    (5) Maior: Identifica o maior número guardado na lista.
 
-   (6) Menor: Identifica o menor número guardado na lista.
+    (6) Menor: Identifica o menor número guardado na lista.
+ 
+    (7) estaOrdenada (Crescente): Responde Sim/Não se os números estiverem do menor para o maior.
 
-   (7) estaOrdenada (Crescente): Responde Sim/Não se os números estiverem do menor para o maior.
+    (8) estaOrdenada (Decrescente): Responde Sim/Não se os números estiverem do maior para o menor.
 
-   (8) estaOrdenada (Decrescente): Responde Sim/Não se os números estiverem do maior para o menor.
+    (9) Procura um elemento: Pede um número e devolve a sua posição (a primeira posição é 0). Se não existir, devolve -1.
 
-   (9) Procura um elemento: Pede um número e devolve a sua posição (a primeira posição é 0). Se não existir, devolve -1.
-
-   (0) Sair: Termina o programa e mostra a lista final no ecrã.
+    (0) Sair: Termina o programa e mostra a lista final no ecrã.
 
 
 ## Lista dos resultados
