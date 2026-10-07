@@ -10,7 +10,7 @@
 ## Resumo 
 O objetivo do TPC4 é criar um programa em Python com um menu interativo (0 a 9) para gerir e analisar uma lista de números.
 
-####Funcionalidades do Menu:
+#### Funcionalidades do Menu:
    (1) Criar Lista: Gera uma nova lista com números aleatórios (entre 1 e 100) e apaga a lista anterior.
 
    (2) Ler Lista: Pede ao utilizador para introduzir números manuais e apaga a lista anterior.
