@@ -10,6 +10,8 @@
 ## Resumo 
 
 ## Lista dos resultados
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias:
+
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/7a2b60d8-2fe0-4f03-90d2-487f3c12eb86" />
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/443df45a-1d2a-446f-9811-aee04b526671" />
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f3752076-e042-4cbb-8e13-35c13d48b584" />
