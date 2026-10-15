@@ -11,7 +11,7 @@
 
 O objetivo deste TPC é desenvolver uma aplicação em Python para gestão de alunos com as seguintes operações:
 
-Operações do Menu:
+#### Operações do Menu:
 
     1. Criar uma turma (inicializar ou preencher a turma).
 
