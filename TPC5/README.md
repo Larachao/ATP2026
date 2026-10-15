@@ -23,11 +23,13 @@ Operações do Menu:
 
     5. Guardar a turma em ficheiro (exportar os dados atuais da turma para um ficheiro).
 
-    6. Carregar uma turma dum ficheiro (ler/importar a informação de um ficheiro existente no computador para a aplicação, recuperando os dados guardados anteriormente).
+    6. Carregar uma turma dum ficheiro (ler/importar a informação de um ficheiro existente no computador para a aplicação, 
+    recuperando os dados guardados anteriormente).
 
     0. Sair da aplicação (terminar o programa).
 
-        NOTA:. Após a execução de qualquer operação, o menu deve ser apresentado novamente de forma cíclica para permitir novas seleções até que o utilizador escolha sair (0).
+        NOTA:. Após a execução de qualquer operação, o menu deve ser apresentado novamente de forma cíclica para permitir novas 
+        seleções até que o utilizador escolha sair (0).
 
 ## Lista dos resultados 
 Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [TPC5.py](https://github.com/user-attachments/files/33506384/TPC5.py)
