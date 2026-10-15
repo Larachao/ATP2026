@@ -9,8 +9,8 @@
 
 ## Resumo 
 
-## Lista dos resultados
-Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias:
+## Lista dos resultados 
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [TPC5.py](https://github.com/user-attachments/files/33506384/TPC5.py)
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/7a2b60d8-2fe0-4f03-90d2-487f3c12eb86" />
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/443df45a-1d2a-446f-9811-aee04b526671" />
