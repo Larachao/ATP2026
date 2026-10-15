@@ -11,29 +11,23 @@
 
 O objetivo deste TPC é desenvolver uma aplicação em Python para gestão de alunos com as seguintes operações:
 
-Estrutura de Dados:
-
-Cada aluno é representado por um tuplo: aluno = (nome, id, [notaTPC, notaProj, notaTeste]).
-
-Uma turma é representada por uma lista de alunos: turma = [aluno].
-
 Operações do Menu:
 
-Criar uma turma (inicializar ou preencher a turma).
+    1. Criar uma turma (inicializar ou preencher a turma).
 
-Inserir um aluno na turma (adicionar novos registos).
+    2. Inserir um aluno na turma (adicionar novos registos).
 
-Listar a turma (mostrar todos os alunos registados).
+    3. Listar a turma (mostrar todos os alunos registados).
 
-Consultar um aluno por ID (procurar e visualizar os dados de um aluno específico).
+    4. Consultar um aluno por ID (procurar e visualizar os dados de um aluno específico).
 
-Guardar a turma em ficheiro (exportar os dados atuais da turma para um ficheiro).
+    5. Guardar a turma em ficheiro (exportar os dados atuais da turma para um ficheiro).
 
-Carregar uma turma dum ficheiro (ler/importar a informação de um ficheiro existente no computador para a aplicação, recuperando os dados guardados anteriormente).
+    6. Carregar uma turma dum ficheiro (ler/importar a informação de um ficheiro existente no computador para a aplicação, recuperando os dados guardados anteriormente).
 
-Sair da aplicação (terminar o programa).
+    0. Sair da aplicação (terminar o programa).
 
-Comportamento geral: Após a execução de qualquer operação, o menu deve ser apresentado novamente de forma cíclica para permitir novas seleções até que o utilizador escolha sair (0).
+        NOTA:. Após a execução de qualquer operação, o menu deve ser apresentado novamente de forma cíclica para permitir novas seleções até que o utilizador escolha sair (0).
 
 ## Lista dos resultados 
 Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [TPC5.py](https://github.com/user-attachments/files/33506384/TPC5.py)
