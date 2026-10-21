@@ -37,6 +37,6 @@ Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: 
 
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203345" src="https://github.com/user-attachments/assets/623f609b-ab8f-42ce-a362-c2c27c85b235" />
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203402" src="https://github.com/user-attachments/assets/7dba81af-38f6-40c2-a9a1-885a9e071509" />
-<img width="500" height="300" alt="Captura de ecrã 2026-10-07 203422" src="https://github.com/user-attachments/assets/a9292895-dde9-4300-ba7e-3de8c0e69029"/>
+<img width="944" height="548" alt="image" src="https://github.com/user-attachments/assets/f2203354-d9a8-4a54-bfb3-0e33aa4cebb1" />
 <img width="500" height="150" alt="Captura de ecrã 2026-10-07 203429" src="https://github.com/user-attachments/assets/3baa5193-8023-47b0-a126-0e5a01e371ef" />
 
