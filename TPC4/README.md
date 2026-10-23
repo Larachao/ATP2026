@@ -33,7 +33,7 @@ O objetivo do TPC4 é criar um programa em Python com um menu interativo (0 a 9)
 
 
 ## Lista dos resultados
-Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc4.py](https://github.com/user-attachments/files/33174150/tpc4.py)
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc4.ipynb](https://github.com/user-attachments/files/33869538/tpc4.ipynb)
 
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203345" src="https://github.com/user-attachments/assets/623f609b-ab8f-42ce-a362-c2c27c85b235" />
 <img width="500" height="300" alt="Captura de ecrã 2026-10-07 203402" src="https://github.com/user-attachments/assets/7dba81af-38f6-40c2-a9a1-885a9e071509" />
