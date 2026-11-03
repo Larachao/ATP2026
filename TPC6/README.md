@@ -36,4 +36,4 @@ O objetivo deste TPC é desenvolver uma aplicação em Python que permita ao uti
     10. Coloca tudo numa aplicação externa ao notebook
 
 ## Lista dos resultados
-Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias: [tpc6.ipynb](https://github.com/user-attachments/files/34313090/tpc6.ipynb)
+Os resultados encontram-se no ficheiro que se segue: [tpc6.ipynb](https://github.com/user-attachments/files/34324963/tpc6.ipynb)
