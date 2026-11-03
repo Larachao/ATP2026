@@ -47,4 +47,6 @@ e) Remoção de posts (remPost): Elimina um post da rede com base no ID fornecid
 f) Distribuição por autor (postsPorAutor): Agrupa e contabiliza os posts associados a cada autor.
 
 g) Posts comentados (comentadoPor): Devolve a lista de posts que foram comentados por um determinado autor.
+
 ## Lista dos resultados
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias:
