@@ -8,19 +8,17 @@
   - **Fotografia**:
 
 ## Resumo 
-Teste de Aferição (Python)
-Este trabalho prático foca-se na consolidação de conceitos avançados de Python, dividindo-se em três blocos principais: Listas em Compreensão, Funções Utilitárias e Manipulação de Strings/Números, e Gestão de Dados Complexos (Rede Social).
+O objetivo deste TPC é desenvolver uma aplicação em Python que funciona como um teste de aferição, focada na consolidação de competências de programação através de três blocos de exercícios: listas por compreensão, funções e gestão de dados de uma rede social.
 
-🧩 tpc-1. Listas em Compreensão (List Comprehensions)
-Resolução de problemas utilizando a sintaxe concisa de compreensão de listas em Python:
+#### Tpc1. Listas em Compreensão:
 
-a) Elementos não comuns: Criação de uma lista com os elementos que não são comuns a duas listas dadas.
+    a) Criação de uma lista com os elementos que não são comuns a duas listas dadas.
 
-b) Filtragem de palavras: Extração de palavras de um texto que possuam mais do que 3 letras.
+    b) Formação de uma lista com palavras de um texto que possuam mais do que 3 letras.
 
-c) Pares índice-valor: Geração de uma lista de tuplos com o formato (índice, valor) a partir dos elementos de uma lista.
+    c) Geração de uma lista com o formato (índice, valor) a partir dos elementos de uma lista.
 
-⚙️ tpc-2. Funções e Algoritmia
+#### Tpc2. Funções
 Implementação de funções para resolução de problemas lógicos e manipulação de dados:
 
 a) Contagem de Substrings (strCount): Calcula o número de vezes que uma substring ocorre numa string, sem sobreposições.
@@ -31,7 +29,7 @@ c) Redução de Dígitos (reduxInt): Soma repetidamente os dígitos de um númer
 
 d) Índice de Ocorrência (myIndexOf): Procura a primeira ocorrência de uma string dentro de outra, devolvendo o respetivo índice ou -1 caso não exista.
 
-🌐 tpc-3. Gestão de uma Rede Social (Estruturas de Dados Aninhadas)
+#### Tpc3. Gestão de uma Rede Social
 Desenvolvimento de um conjunto de funções para gerir dados de uma rede social simulada através de listas de dicionários (posts com ID, conteúdo, autor, data e comentários):
 
 a) Contagem de posts (quantosPost): Devolve o número total de posts registados.
