@@ -1,0 +1,184 @@
+# TabMeteo = [(Data,TempMin,TempMax,Precipitacao)]
+    # Data = (Int,Int,Int)
+    # TempMin = Float
+    # TempMax = Float
+    # Precipitacao = Float
+
+tabMeteo1 = [((2022,1,20), 2, 16, 0),((2022,1,21), 1, 13, 0.2), ((2022,1,22), 7, 17, 0.01)]
+
+def menu(lista):
+    for opção in lista:
+        print(opção)
+
+menuOpcoes = ["""
+(1) Temperatura média de cada dia
+(2) Guardar tabela meteorológica num ficheiro 
+(3) Carregar tabela meteorológica de um ficheiro
+(4) Temperatura mínima mais baixa registada 
+(5) Calcular a amplitude térmica de cada dia
+(6) Valor máximo de precipitação registada
+(7) Dias de precipitação superior ao limite definido
+(8) Maior número consecutivo de dias com precipitação abaixo do limite definido
+(9) Criação dos gráficos da temperatura mínima, máxima e de pluviosidade
+(0) Sair"""]
+
+print (menu(menuOpcoes))
+menu = int(input("Escolha a operação a realizar do MENU"))
+
+def medias(tabMeteo):
+    res = []
+    for data, tmin, tmax, prec in tabMeteo:
+        media = (tmin + tmax) / 2
+        res.append((data, media))
+    return res
+
+while menu != 0:
+    # 1) Calcula a temperatura média de cada dia
+    if menu == 1:
+        print(medias(tabMeteo1))
+    if menu == 1:
+        print(medias(tabMeteo1))
+        menu = int(input("Escolha a operação a realizar do MENU: "))
+
+# 2) Define uma função para guardar uma tabela meteorológica num ficheiro de texto.
+    elif menu == 2:
+        def guardaTabMeteo(tabMeteo, fnome):
+            file = open(fnome, "w")
+            for data, tmin, tmax, prec in tabMeteo:
+                ano, mes, dia = data
+                file.write  (f"{ano}-{mes}-{dia}|{tmin}|{tmax}|{prec}|\n")
+            file.close()
+
+        guardaTabMeteo(tabMeteo1, "meteorologia.txt")
+
+        print ("Função guardada num ficheiro de texto com sucesso")
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 3) Define uma função para carregar uma tabela meteorológica de um ficheiro de texto.
+    elif menu == 3:
+        def carregaTabMeteo(fnome):
+            res = []
+            file = open(fnome, "r")
+            for line in file:
+                data, tmin, tmax, prec, _ = line.split("|")
+                ano, mes, dia = data.split ("-")
+                tuplo = ((ano, mes, dia), tmin, tmax, prec)
+                res.append (tuplo)
+            file.close()
+            return res
+
+        tabMeteo2 = carregaTabMeteo("meteorologia.txt")
+
+        print ("Função carregada de um ficheiro de texto com sucesso")
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 4) Calcula a temperatura mínima mais baixa registada na tabela, dando como resultado esse valor:
+    elif menu == 4:
+        def minMin(tabMeteo):
+            min_val = tabMeteo[0][1]
+            for data, tmin, tmax, prec in tabMeteo:
+                if tmin < min_val:
+                    min_val = tmin
+            return min_val
+
+        print(minMin(tabMeteo1))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 5) Calcula a amplitude térmica (diferença entre a temperatura máxima e a temperatura mínima) de cada dia, dando como resultado uma lista de pares: [(data, amplitude)]
+    elif menu == 5:
+        def amplTerm(tabMeteo):
+            res = []
+            for data, tmin, tmax, prec in tabMeteo:
+                amplitude = tmax - tmin
+                res.append((data, amplitude))
+            return res
+
+        print(amplTerm(tabMeteo1))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 6) Calcula o dia em que a precipitação registada teve o seu valor máximo e indica esse valor, dando como resultado o par (data, valor):
+    elif menu == 6:
+        def maxChuva(tabMeteo):
+            max_data = tabMeteo[0][0]
+            max_val = tabMeteo[0][3]
+            for data, tmin, tmax, prec in tabMeteo:
+                if prec > max_val:
+                    max_prec = prec
+                    max_data = data
+            return (max_data, max_prec)
+
+        print(maxChuva(tabMeteo1))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 7) Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna uma lista de pares [(data, precipitação)] correspondente aos dias em que a 
+# precipitação foi superior a `p`. 
+    elif menu == 7:
+        def diasChuvosos(tabMeteo, p):
+            res = []
+            for data, tmin, tmax, prec in tabMeteo:
+                if prec > p:
+                    res.append((data, prec))
+            return res
+
+        p = float(input("Insira o valor de `p`"))
+        print (diasChuvosos (tabMeteo1, p))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 8) Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna o maior número consecutivo de dias com precipitação abaixo desse limite.
+    elif menu == 8:
+        def maxPeriodoCalor(tabMeteo, p):
+            max_consec = 0
+            atual_consec = 0
+            for data, tmin, tmax, prec in tabMeteo:
+                if prec < p:
+                    atual_consec = 1 + atual_consec
+                    if atual_consec > max_consec:
+                        max_consec = atual_consec
+                else:
+                    atual_consec = 0
+            return max_consec
+
+        p = float(input("Insira o valor de `p`"))
+        print (maxPeriodoCalor (tabMeteo1, p))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+
+# 9) Define uma função que recebe uma tabela meteorológica e desenha os gráficos da temperatura mínima, máxima e de pluviosidade.
+    elif menu == 9:
+        import matplotlib.pyplot as plt
+
+        def grafTabMeteo (tabMeteo):
+            y_min = [tmin for data, tmin, tmax, prec in tabMeteo]
+            y_max = [tmax for data, tmin, tmax, prec in tabMeteo]
+            y_prec = [prec for data, tmin, tmax, prec in tabMeteo]
+
+            x = [f"{data [0]}-{data [1]}-{data [2]}" for data, tmin, tmx, prec in tabMeteo]
+
+            plt.plot (x, y_min, color = "blue", marker = "o", label = "Tmin ºC")
+            plt.plot (x, y_max, color = "red", marker = "o", label = "Tmax ºC")
+            plt.title ("Temperatura")
+            plt.legend ()
+            plt.grid ()
+            plt.show ()
+
+            plt.bar (x, y_prec, color = "green", label = "Precipitação (mm)")
+            plt.title ("Precipitação")
+            plt.legend ()
+            plt.grid ()
+            plt.show ()
+
+            return 
+
+        print (grafTabMeteo (tabMeteo1))
+        menu = int(input("Escolha a operação a realizar do MENU"))
+
+    else:
+        menu = int(input("Número não consta no MENU, por favor insira um número do MENU"))
+
+print ("Até á próxima")
