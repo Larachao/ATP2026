@@ -10,7 +10,7 @@
 ## Resumo 
 O objetivo deste TPC é desenvolver uma aplicação em Python que funciona como um teste de aferição, focada na consolidação de competências de programação através de três blocos de exercícios: listas por compreensão, funções e gestão de dados de uma rede social.
 
-#### Tpc1. Listas em Compreensão:
+####  Tpc1. Listas em Compreensão:
 
     a) Criação de uma lista com os elementos que não são comuns a duas listas dadas.
 
