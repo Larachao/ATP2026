@@ -35,8 +35,8 @@ O objetivo deste TPC é desenvolver uma aplicação em Python que funciona como 
 
     4) insPost - Acrescenta um novo post a partir dos parâmetros recebidos e devolve a nova rede social
           
-            NOTA:. O campo `id` devrá ser calculado a partir dos já existentes, por exemplo, se a rede tiver posts com id `p1`, `p2` 
-            e `p3`, o novo `id` deverá ser `p4`.
+            NOTA:. O campo `id` devrá ser calculado a partir dos já existentes, por exemplo, se a rede tiver posts com id `p1`, 
+            `p2` e `p3`, o novo `id` deverá ser `p4`.
 
     5) remPost - Elimina um post da rede com base no ID fornecido.
 
