@@ -18,15 +18,20 @@ O objetivo deste TPC é desenvolver uma aplicação em Python que permita ao uti
 
     4. Calcula a temperatura mínima mais baixa registada na tabela, dando como resultado esse valor
 
-    5. Calcula a amplitude térmica (diferença entre a temperatura máxima e a temperatura mínima) de cada dia, dando como resultado uma lista de pares: [(data, amplitude)]
+    5. Calcula a amplitude térmica (diferença entre a temperatura máxima e a temperatura mínima) de cada dia, dando 
+    como resultado uma lista de pares: [(data, amplitude)]
 
-    6. Calcula o dia em que a precipitação registada teve o seu valor máximo e indica esse valor, dando como resultado o par (data, valor):
+    6. Calcula o dia em que a precipitação registada teve o seu valor máximo e indica esse valor, dando como resultado
+    o par (data, valor):
 
-    7. Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna uma lista de pares [(data, precipitação)] correspondente aos dias em que a precipitação foi superior a `p`
+    7. Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna uma lista de pares 
+    [(data, precipitação)] correspondente aos dias em que a precipitação foi superior a `p`
 
-    8. Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna o maior número consecutivo de dias com precipitação abaixo desse limite
+    8. Define uma função que recebe uma tabela meteorológica e um limite `p` e retorna o maior número consecutivo de 
+    dias com precipitação abaixo desse limite
 
-    9. Define uma função que recebe uma tabela meteorológica e desenha os gráficos da temperatura mínima, máxima e de pluviosidade
+    9. Define uma função que recebe uma tabela meteorológica e desenha os gráficos da temperatura mínima, máxima e 
+    de pluviosidade
 
     10. Coloca tudo numa aplicação externa ao notebook
 
