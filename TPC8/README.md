@@ -10,3 +10,4 @@
 ## Resumo 
 
 ## Lista dos resultados
+Os resultados encontram-se tanto no ficheiro que se segue como nas fotografias:
