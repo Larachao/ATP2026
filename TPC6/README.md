@@ -18,7 +18,7 @@ O objetivo deste TPC é desenvolver uma aplicação em Python que permita ao uti
 
     4. Calcula a temperatura mínima mais baixa registada na tabela, dando como resultado esse valor
 
-    5. Calcula a amplitude térmica (diferença entre a temperatura máxima e a temperatura mínima) de cada dia, dando como resultado 
+    5. Calcula a amplitude térmica (diferença entre a temperatura máxima e a temperatura mínima) de cada dia, dando como resultado
     uma lista de pares: [(data, amplitude)]
 
     6. Calcula o dia em que a precipitação registada teve o seu valor máximo e indica esse valor, dando como resultado o par 
