@@ -10,3 +10,4 @@
 ## Resumo 
 
 ## Lista dos resultados
+[tpc6.ipynb](https://github.com/user-attachments/files/34313090/tpc6.ipynb)
